@@ -6,7 +6,7 @@ public class Aquarium {
     private List<Fish> listOfFishes = new ArrayList();
     public void addFish(Fish fish)
     {
-
+        listOfFishes.add(fish);
     }
     public void deleteFish(Fish fish)
     {
